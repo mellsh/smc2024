@@ -25,7 +25,8 @@ const allowedOrigins = [
   'https://third.smc2024.kro.kr',
   'https://first.smc2024.kro.kr',
   'http://localhost:3000',
-  'http://localhost:3001'
+  'http://localhost:3001',
+  'https://mellsh.smc2024.kro.kr'
 ];
 
 app.use(cors({
