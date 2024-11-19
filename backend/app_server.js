@@ -8,7 +8,7 @@ const path = require('path');
 const dbConfig = require('./dbConfig');
 
 // Oracle Instant Client 초기화 (Thick 모드 사용)
-oracledb.initOracleClient({ libDir: 'c:\\instantclient_11_2' }); // Windows 경로
+oracledb.initOracleClient({ libDir: 'C:\\instantclient_11_2' }); // Windows 경로
 // oracledb.initOracleClient({ libDir: '/usr/local/src/instantclient_11_2' }); // Linux/Mac 경로
 
 const app = express();
