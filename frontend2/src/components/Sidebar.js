@@ -65,6 +65,7 @@ const Sidebar = ({ userEmail, setUserEmail, apiUrl }) => {
       <ul>
         <li><Link to="/dashboard">대시보드</Link></li>
         <li><Link to="/board">게시판</Link></li>
+        <li><Link to="/chat">ai채팅</Link></li>
         <li><Link to="/login">로그인</Link></li>
         <li><Link to="/signup">회원가입</Link></li>
       </ul>
