@@ -10,6 +10,7 @@ import BoardPage from './pages/BoardPage';
 import CreateBoardPage from './pages/CreateBoardPage';
 import BoardDetailPage from './pages/BoardDetailPage';
 import Dashboard from './pages/Dashboard';
+import Chatpage from './pages/Chatpage';
 import './App.css';
 
 const App = () => {
@@ -61,6 +62,7 @@ const App = () => {
               <Route path="/boards/:id" element={<BoardDetailPage />} />
               <Route path="/create-board" element={<CreateBoardPage />} />
               <Route path="/dashboard" element={<Dashboard />} />
+              <Route path="/chat" element={<Chatpage />} />
               <Route path="/" element={<Dashboard />} />
             </Routes>
           </div>
